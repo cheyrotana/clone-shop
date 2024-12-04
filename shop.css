@@ -106,7 +106,7 @@ body {
 }
 
 #body {
-    background-color: white;
+    background-color: #f8f6f2;
     color: black;
     text-transform: capitalize;
     /* font-size: 20px; */
@@ -114,7 +114,7 @@ body {
     flex-direction: column;
 }
 .body-header {
-    background-color: white;
+    background-color: rgb(248, 246, 242);
     text-align: center;
     font-family: serif;
     padding: 4em 0 0 2em;
@@ -125,6 +125,7 @@ body {
     margin: 20px;
     font-size: 16px;
     color: #333;
+    background-color: #f8f6f2;
 }
 
 .category-list ul {
@@ -197,13 +198,16 @@ body {
     background-color: #b0886a; /* Slightly darker background */
     color: white; /* Maintain text color */
 }
-
+.image {
+    background-color: #f8f6f2;
+}
+/* image1 */
 .image1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
     position: relative;
+    background-color: #f8f6f2;
     
 }
 .book {
@@ -380,9 +384,9 @@ img {
     margin-top: 3em;
     display: block;
 }
-img {
-    width: 746px;
-    height: 746px;
+.alot-of-bottle img {
+    width: 746.66px;
+    height: 560px;
 }
 .text3 {
     text-align: center;
@@ -513,4 +517,266 @@ img {
 }
 .button a:visited {
     color: white;
+}
+/*iamge 5*/
+.image5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    position: relative;
+    
+}
+.cow {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    height: 746.66px;
+    width: 1120px;
+    margin-top: 3em;
+    display: block;
+}
+img {
+    width: 746px;
+    height: 746px;
+}
+.text5 {
+    text-align: center;
+    width: 560px;
+    height: 346px;
+    background-color: #2b3a41;
+    color: white;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+.text5 h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+.parg {
+    font-size: 16px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    background-color: #BB946E;
+    height: 66px;
+    width: 161.89px;
+    padding: 20px 28px;
+    gap: 0.5em;
+    align-items: center;
+    justify-items: center;
+}
+.button a {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #2b3a41;
+    cursor: pointer;
+    border: solid 1px white;
+}
+.button a:visited {
+    color: white;
+}
+.price4 {
+    position: absolute;
+    top: 6%;
+    left: 21%;
+    font-size: 16px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #BB946E;
+    text-align: center;
+    padding-top: 2em;
+    margin: 20px 0px 0px 20px;
+}
+/*image6*/
+.image6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    position: relative;
+    padding-left: 50em;
+    
+}
+.bottle {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    /* align-content: center; */
+    height: 746.66px;
+    width: 1120px;
+    margin-top: 3em;
+    display: block;
+}
+
+.text6 {
+    text-align: center;
+    width: 560px;
+    height: 346px;
+    background-color: #2b3a41;
+    color: white;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 59%;
+    right: 34%;
+    transform: translate(-50%, -50%);
+}
+.text6 h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+.parg {
+    font-size: 16px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    background-color: #BB946E;
+    height: 66px;
+    width: 161.89px;
+    padding: 20px 28px;
+    gap: 0.5em;
+    align-items: center;
+    justify-items: center;
+}
+.button a {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #2b3a41;
+    cursor: pointer;
+    border: solid 1px white;
+}
+.button a:visited {
+    color: white;
+}
+.price5 {
+    position: absolute;
+    top: 6%;
+    right: 22%;
+    font-size: 16px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #BB946E;
+    text-align: center;
+    padding-top: 2em;
+    margin: 20px 0px 0px 20px;
+}
+/*image7*/
+.image7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    position: relative;
+    
+}
+.bottle-two {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    /* align-content: center; */
+    height: 746.66px;
+    width: 1120px;
+    margin-top: 3em;
+    display: block;
+}
+.bottle-two img {
+    width: 746px;
+    height: 746px;
+    background-color: rgb(248, 246, 242);
+}
+.text7 {
+    text-align: center;
+    width: 560px;
+    height: 346px;
+    background-color: #2b3a41;
+    color: white;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.text7 h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+.parg {
+    font-size: 16px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    background-color: #BB946E;
+    height: 66px;
+    width: 161.89px;
+    padding: 20px 28px;
+    gap: 0.5em;
+    align-items: center;
+    justify-items: center;
+}
+.button a {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #2b3a41;
+    cursor: pointer;
+    border: solid 1px white;
+}
+.button a:visited {
+    color: white;
+}
+.price6 {
+    position: absolute;
+    top: 6%;
+    left: 21%;
+    font-size: 16px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #BB946E;
+    text-align: center;
+    padding-top: 2em;
+    margin: 20px 0px 0px 20px;
+}
+/*image8*/
+.tree {
+    display: flex;
+    justify-content: end;
+    padding-right: 3em;
+}
+.tree img {
+    width: 450px;
+    height:350px;
+}
+.follow {
+    background-color: #BB946E;
+    width: 523.33px;
+    height: 523.34px;
 }
