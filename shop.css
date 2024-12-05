@@ -9,6 +9,7 @@ body {
     color: #000;
     height: 100vh;  /* Added to ensure the background color covers the entire viewport */
     width: 100vw; /* Added to ensure the background color covers the entire viewport */
+    overflow-x: hidden;
 }
 
 .header {
@@ -775,8 +776,156 @@ img {
     width: 450px;
     height:350px;
 }
-.follow {
-    background-color: #BB946E;
-    width: 523.33px;
-    height: 523.34px;
+/*FOLLOW US*/  
+/* .bullhead-container {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.ig-button {
+    border: solid 1px #fff;
+    background-color: #fee9c9;
+    display: flex;
+    justify-content: center;
+  width: 243.14px;
+  height: 66px;
+  padding: 20px 28px;
+  font-size: 16px;
+  gap: 1em;
+
+.g-button:active {
+  background-color: white;
+
+.g-button a {
+  text-decoration: none;
+  color: white;
+}*/
+/* Footer */
+ /* Custom horizontal line */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: white; /* Line color */
+    width: 80%; /* Line width */
+    margin: 30px auto; /* Centers the line and adds spacing above and below */
+    width: 896px;
+}
+.outer-wrapper {
+  width: 100%;
+  height: 808.69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b3a41;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  color: #ffffff;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.navigation {
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.navigation span {
+  margin: 0 4px;
+}
+
+.email-updates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.email-updates input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  margin-right: 8px;
+  border-radius: 4px;
+  height: 64px;
+  width: 382px;
+}
+
+.email-updates button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer address {
+  font-style: normal;
+}
+
+footer .arrow {
+  margin: 16px 0;
+  font-size: 24px;
+}
+/* Remove text underline and keep link color white */
+nav ul {
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Sets text color to white */
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth transition on hover or active */
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  color: white; /* Keeps the link color white even when hovered or active */
+}
+.logo-footer {
+    width: 128px;
+    height: 102.25px;
+}
+.enquiry a {
+    color: white;
+}
+.enquiry a:active,
+.enquiry a:hover,
+.enquiry a:visited {
+    color: white;
 }
