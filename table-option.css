@@ -21,6 +21,7 @@ body {
     width: 800px;
     height: 90%;
     overflow: auto;
+    overflow-x: hidden;
 }
 .true-header {
     display: flex;

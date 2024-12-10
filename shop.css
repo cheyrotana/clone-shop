@@ -121,28 +121,38 @@ hr {
 }
 
 /* Sidebar Reservation Link */
-.reservation-link {
+.sticky-side{
+    padding: .25rem .25rem 0 .25rem;
+    width: 250px;
     position: fixed;
+    z-index: 500;
     top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    writing-mode: vertical-lr;
-    text-align: center;
-    background-color: #c3a07c;
-    color: white;
-    padding: 20px 32px;
+    transform: translateY(-50%) rotate(270deg);
+    border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
+    left: 89.2%;
+    transform: rotate(270deg);
+    border-bottom: 0;
+}
+.sticky{
+    width: 100%;
+    background-color: #bb946e;
+    padding: 1.25rem 2rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.sticky a {
     text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    border: 1px solid #b0886a;
-    z-index: 1000;
-    height: 230px;
-    width: 64px;
-    /* transition: background-color 0.3s; */
 }
 
-.reservation-link:hover {
+.sticky a:hover {
     background-color: #b0886a;
+}
+.sticky a:hover,
+.sticky a:active,
+.sticky a:visited {
+    color: #fff;
 }
 .body-header {
     text-align: center;
@@ -275,29 +285,6 @@ hr {
 .content {
     height: 2000px; /* For scrollable effect */
     padding: 20px;
-}
-
-.reservation-link {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    writing-mode: vertical-lr;
-    text-align: center;
-    background-color: #c3a07c;
-    color: white;
-    padding: 20px 32px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    border: 1px solid #b0886a;
-    z-index: 1000;
-    height: 230px;
-    width: 64px;
-}
-
-.reservation-link:hover {
-    background-color: #b0886a;
 }
 
 /* General image section styling */
@@ -533,6 +520,162 @@ h3 {
     font-family: 'Neue Montreal', Arial, Helvetica, sans-serif !important;
     font-size: 16px;
 }
+.insta-con {
+    width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insta-part {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+.insta-left-part {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.insta-block-con {
+    padding-top: 100%;
+    position: relative;
+}
+
+.insta-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.insta-block-con:hover {
+    background-color: #bb946e;
+}
+
+.insta-loading {
+    width: 1.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.insta-center-part {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.insta-center {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.insta-center-image-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.insta-center-image {
+    width: 1.25rem;
+    max-width: 100%;
+}
+
+.insta-middle-con {
+    grid-column: span 1 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #bb946e;
+    opacity: 0.75;
+}
+
+.insta-middle-text {
+    font-family: 'Joanna Nova', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.under {
+    width: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    display: block;
+    color: #fff;
+}
+
+.insta-title-con {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1.25rem 1.75rem;
+    color: #fff;
+    text-decoration: inherit;
+    position: relative;
+}
+
+.insta-title {
+    display: block;
+}
+
+.insta-title-con:hover {
+    background-color: #fff;
+    color: #bb946e;
+}
+
+.middle-img-con {
+    z-index: -1;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    width: 80%;
+    left: 10%;
+    top: 50%;
+    position: absolute;
+    opacity: 0.25;
+}
+
+.middle-img-width {
+    padding-top: 108.3%;
+    opacity: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.middle-img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
 .enquiry a {
     color: white;
 }
@@ -573,3 +716,19 @@ h3 {
     src: url(font/Neue\ Montreal\ Bold.woff) format('woff');
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    /* Styles for most phones */
+    #body {
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        /* margin-top: 5em; */
+        flex-direction: column;
+    }
+    
+}
+
