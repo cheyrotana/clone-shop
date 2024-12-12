@@ -441,10 +441,10 @@ hr {
 .text6 { top: 59%; right: 34%; }
 .text7 { top: 50%; left: 60%; }
 
-.price { top: 2%; left: 21%; }
-.price2, .price5 { top: 2%; right: 32%; }
-.price3, .price6 { top: 2%; left: 32%; }
-.price4 { top: 2%; right: 32%; }
+.price { top: 2%; left: 27%; }
+.price2, .price5 { top: 2%; right: 27%; }
+.price3, .price6 { top: 2%; left: 27%; }
+.price4 { top: 2%; right: 27%; }
 
 /* Footer section */
 hr {
@@ -698,6 +698,15 @@ h3 {
 .email a:visited {
     color: white;
 }
+#arrow {
+    /* color: black;*/
+    font-size: 24px; 
+    transform: translateX(0); /* Ensure initial position */
+    transition: transform 0.3s ease; /* Smooth return to original position */
+}
+.button:hover #arrow {
+    transform: translateX(13px); /* Move forward */
+} 
 /* Fonts */
 @font-face {
     font-family: 'Joanna Nova';
