@@ -6,26 +6,25 @@
 
 body {
     background-color: darkgray;
-    height: 100vh;
-    width: 100vw;
+    overflow-y: hidden;
 }
 
 .container {
     position: absolute;
     top: 50%;
     left: 50%;
+    height: 92vh;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 800px;
+    width: 44vw;
 }
 .image img {
     display: flex;
     justify-content: center;
-    width: 95%;
+    width: 97%;
     height: 100%;
     margin: 0px;
-    margin-left: 25px;
-    margin-right: 15px;
+    padding-left: 23px;
     padding-top: 15px;
 }
 .header {
@@ -42,7 +41,7 @@ body {
     padding-top: 0.3em;
 }
 hr {
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -53,11 +52,10 @@ i {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px;
     font-size: 20px;
     height: 38px;
-    padding-right: 22px;
-    padding-left: 25px;
+    margin: 10px;
+    margin-top: 18px;
     font-family: arial;
 }
 .date-option span {
@@ -68,14 +66,12 @@ i {
 }
 .guest  {
     display: flex;
+    gap: 40px;
     justify-content: space-evenly;
     align-items: center;
-    height: 12px;
-    margin: 20px;
     font-size: 20px;
     text-align: center;
-    padding-bottom: 3px;
-    height: 45px;
+    margin: 10px;
     font-family: arial;
 }
 .guest-option span {
@@ -85,11 +81,12 @@ i {
 }   
 .time {
     display: flex;
+    gap: 40px;
     justify-content: space-evenly;
     align-items: center;
     height: 10px;
-    margin: 20px;
     height: 45px;
+    margin: 10px;
     font-size: 20px;
     font-family: arial;
 }
@@ -100,14 +97,21 @@ i {
     padding-left: 5px;
     font-family: arial;
 }
-.search {
+.search{
     height: 62px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .search button{
-    width: 770px;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 42px;
     background-color: #324654;
-    margin-left: 20px;
+    /* margin-left: 30px; */
+    border-radius: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: white;
@@ -130,7 +134,7 @@ i {
 .footer {
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 90px;
     margin: 16px 16px 0px;
     font-size: 11px;
     font-family: "PT serif";
@@ -148,6 +152,14 @@ i {
     color: black;
     text-decoration: none;
 }
+@media (max-width: 480px){
+   .container{
+        max-width: 100%;
+        
+   }
+}
+
+
 @font-face {
     font-family: 'Joanna Nova';
     src: url(font/Joanna\ Nova\ W06\ Regular.woff) format('woff');
