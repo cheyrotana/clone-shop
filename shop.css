@@ -818,6 +818,7 @@
     body {
         position: relative;
     }
+
     /* Display Settings */
     .lock1 {
         display: flex;
@@ -833,14 +834,14 @@
     .detail-3, 
     .detail4 {
         font-weight: 650;
-        font-size: 6.5vw; /* Larger font size for better visibility */
+        font-size: 6.5vw;
         font-family: joanna-nova, sans-serif;
     }
 
     /* Header Styling */
     .Main-Header {
         width: 100%;
-        height: 85%; /* Adjusted height for balance */
+        height: 85%;
         background-color: #265A5B;
     }
 
@@ -864,53 +865,38 @@
 
     /* Button Block */
     .btn-block {
-        border: solid 1px #BB946E;
+        border: 1px solid #BB946E;
         padding: 2px;
     }
 
     /* Image Positioning */
-    .image1, 
-    .image3, 
-    .image5, 
-    .image7 {
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 6em;
         position: relative;
+    }
+    .image1, .image3, .image5, .image7 {
         width: 20%;
         max-width: 465.66px;
         padding-left: 25rem;
     }
-    .image2, 
-    .image4, 
-    .image6 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 6em;
-        position: relative;
+    .image2, .image4, .image6 {
         padding-right: 14rem;
     }
-    .image4, 
-    .image6 {
+    .image4, .image6 {
         margin-top: 25em;
     }
+
     /* Text Box Styling */
-    .text1, 
-    .text3, 
-    .text5, 
-    .text7, 
-    .text2, 
-    .text4, 
-    .text6 {
+    .text1, .text2, .text3, .text4, .text5, .text6, .text7 {
         text-align: center;
-        width: 90%; /* Increased width for better readability */
-        max-width: 400px; /* Ensures it doesn’t grow too large */
-        height: auto; /* Automatically adjusts height */
+        width: 90%;
+        max-width: 400px;
         background-color: #2b3a41;
         color: white;
-        padding: 6%; /* Relative padding for responsiveness */
+        padding: 6%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -919,21 +905,14 @@
     }
 
     /* Headings within Text Boxes */
-    .text1 h3, 
-    .text2 h3, 
-    .text3 h3, 
-    .text4 h3, 
-    .text5 h3, 
-    .text6 h3, 
-    .text7 h3 {
+    .text1 h3, .text2 h3, .text3 h3, .text4 h3, .text5 h3, .text6 h3, .text7 h3 {
         text-transform: uppercase;
-        font-size: 5vw; /* Significantly larger font size */
+        font-size: 5vw;
     }
 
     /* Paragraph Text Styling */
-    .parg, 
-    .parg3 {
-        font-size: 2.2vw; /* Increased font size for better readability */
+    .parg, .parg3 {
+        font-size: 2.2vw;
     }
 
     /* Button Styling */
@@ -941,9 +920,7 @@
         display: flex;
         flex-direction: row;
         background-color: #BB946E;
-        height: auto;
-        width: auto;
-        padding: 1.5em; /* Increased padding for larger buttons */
+        padding: 1.5em;
         gap: 0.8em;
         align-items: center;
         text-decoration: none;
@@ -954,9 +931,6 @@
         border: 1px solid white;
     }
 
-    .image{
-        position: relative;
-    }
     /* Specific Position Adjustments */
     .text1 { top: 50%; left: 70%; }
     .text2 { top: 50%; right: 40%; }
@@ -965,11 +939,12 @@
     .text5 { top: 85%; left: 58%; }
     .text6 { top: 62%; right: 34%; }
     .text7 { top: 50%; left: 60%; }
-    .price,.price2,.price3,.price4.price5.price6,.price7{
-        position: relative;
+
+    /* Price Labels - Left and Right Positioning */
+    .price, .price2, .price3, .price4, .price5, .price6, .price7 {
+        position: absolute;
         margin-right: 1em;
     }
-    /* Price Labels - Left and Right Positioning */
     .price { top: 2%; left: 14%; }
     .price2, .price5 { top: 2%; right: 15%; }
     .price3, .price6 { top: 2%; left: 12%; }
@@ -977,11 +952,11 @@
 
     /* Tree Section */
     .tree {
-        padding-right: 20%; /* Adjusted for smaller screens */
+        padding-right: 20%;
     }
     .tree img {
-        width: 10vw; /* Increased size */
-        height: auto; /* Maintain aspect ratio */
+        width: 10vw;
+        height: auto;
     }
 }
 @media (max-width:768px)
